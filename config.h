@@ -25,7 +25,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "../../config.h"
 
-#define EE_HANDS
+//#define EE_HANDS
+#define MASTER_RIGHT
 
 #ifdef MOUSEKEY_ENABLE
   #define MOUSEKEY_DELAY 0
@@ -39,6 +40,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef TAPPING_TERM
 #undef TAPPING_TERM
 #endif // TAPPING_TERM
-#define TAPPING_TERM 200
+#define TAPPING_TERM 180
 
 #endif
